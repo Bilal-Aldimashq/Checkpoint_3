@@ -10,7 +10,7 @@ _________________
 **Q.2.1.2:**
 
 Comme préconisation je propose de mettre cet utilisateur dans le groupe root, ce qui permettra lors de cession distante de pouvoir gérer le serveur en root.  
-Il devra également être autorisé à ce connecté à distance en le renseignant dans le fichier /etc/ssh/sshd_config.  
+Il devra également être autorisé à se connecter à distance en le renseignant dans le fichier /etc/ssh/sshd_config.  
 
 _________________
 _________________
