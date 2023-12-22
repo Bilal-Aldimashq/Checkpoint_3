@@ -130,3 +130,47 @@ ___________
 # **Partie 5 : Filtrage et analyse réseau:**
 
 **Q.2.5.1:**
+Les règles de pare-feu appliquées sont:
+- Bloquer tout ce qui arrive sur le hook input.
+- Autoriser l'échange de paquet à état de connexion établie, dans les deux sens, après authentification correcte.
+- Bloque l'échange de paquet à état de connexion invalid.
+- Accepte la communication avec la loopback.
+- Accepte la communication au port 22 en entrée.
+- Autorise le protocol icmp.  
+- Autorise le protocol icmp ipv6.  
+
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q251_1.png?raw=true)
+_______________
+
+**Q.2.5.2:**
+Les types de communications autorisées sont celles dont l'état de connexion est établie, initié par la machine. La communication par le port 22 est autorisé ainsi que le protocole icmp.
+
+____________
+
+**Q.2.5.3:**
+Le type de communication interdite sont celle dont l'état de connexion est invalide, ne faisant pas partie d'une connexion établie connue.
+___________
+
+**Q.2.5.4:**
+On ajoute l'autorisation des 3 port à la chaîne avec cette commande, en changeant la position pour u'elle soit ensemble dans l'ordre:  
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q254_1.png?raw=true)
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q254_2.png?raw=true)
+
+____________
+____________
+
+# **Partie 6 : Analyse de logs:**
+
+**Q.2.6.1:**
+Taper la commande: _last_
+```bash
+                      AdresseIP         Date      Heure tentative
+root     ssh:notty    192.168.10.143   Fri Dec 22 12:10 - 12:10  (00:00)
+wilder   pts/0        192.168.1.77     Thu Dec 21 14:38 - 14:42  (00:04)
+root     pts/0        10.0.0.199       Tue Jan  3 12:20 - 12:20  (00:00)
+root     pts/0        10.0.0.199       Tue Jan  3 12:19 - 12:19  (00:00)
+root     pts/0        10.0.0.199       Tue Jan  3 12:18 - 12:19  (00:00)
+```
+
+
+
