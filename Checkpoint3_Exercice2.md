@@ -102,9 +102,31 @@ Ajouter un nouveau LVM pour les sauvegardes:
   ```
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q234_1.png?raw=true)
 
-- Créer un dossier pour le montage, _storage_, dans le répertoire /var/lib
 - Monter le volume avec la commande:
   ```bash
-  mount /dev/cp3-vg/Save /var/lib/storage
+  mount /dev/cp3-vg/Save /var/lib/bareos/storage
   ```
-![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q234_2.png?raw=true)
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q234_3.png?raw=true)
+
+- Pour que ce volume soit automatiquement monté au démarrage, éditer le fichier /etc/fstab et inscrire le volume:
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q234_4.png?raw=true)
+
+____________
+**Q.2.3.5:**
+L'espace disponible est de 1,79go:
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q235_1.png?raw=true)
+____________
+____________
+
+# **Partie 4 : Sauvegardes:**
+
+**Q.2.4.1:**
+**bareos-dir:** Serveur directeur qui supervise et archive les opérations de sauvegarde et de restauration.  
+**bareos-sd:** Serveur de base de données prenant en charge l'écriture et la lecture des sauvegardes.   
+**bareos-fd:** Serveur de lecture/écriture de fichiersk exécute les commandes de lectures et écritures des fichiers gérés par la sauvegarde sur les postes qui en sont équipés.  
+___________
+___________
+
+# **Partie 5 : Filtrage et analyse réseau:**
+
+**Q.2.5.1:**
