@@ -33,13 +33,13 @@ Dossier renommer et archiver dans un dossier créé nommé ARCHIVES, toujours da
 
 Gestion des droits du dossier archiver afin qu'il ne puisse plus être consulté par les Utilisateurs:
 
-![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q114_2.png?raw=true)
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q114_2.0.png?raw=true)
 
 Création du nouveau Dossier Individuel et gestion des droits:
 
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q114_3.png?raw=true)
 
-![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q114_4.png?raw=true)
+![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q114_4.0.png?raw=true)
 
 
 _____________________
