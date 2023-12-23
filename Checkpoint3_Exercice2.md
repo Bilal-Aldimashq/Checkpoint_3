@@ -18,13 +18,13 @@ _________________
 # **Partie 2 : Configuration de SSH:**
 
 **Q.2.2.1:**  
-Désactiver l'accès root à distance:
+Désactiver l'accès root à distance dans le fichier /etc/ssh/sshd_config:
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q221_1.png?raw=true)
 
 ________________
 
 **Q.2.2.2:**  
-Autoriser l'utilisateur créé à se connecter à distance:
+Autoriser l'utilisateur créé à se connecter à distance dans le fichier /etc/ssh/sshd_config:
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q222_2.png?raw=true)
 
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q222_3.png?raw=true)
@@ -120,7 +120,7 @@ ____________
 
 # **Partie 4 : Sauvegardes:**
 
-**Q.2.4.1:**
+**Q.2.4.1:**  
 **bareos-dir:** Serveur directeur qui supervise et archive les opérations de sauvegarde et de restauration.  
 **bareos-sd:** Serveur de base de données prenant en charge l'écriture et la lecture des sauvegardes.   
 **bareos-fd:** Serveur de lecture/écriture de fichiersk exécute les commandes de lectures et écritures des fichiers gérés par la sauvegarde sur les postes qui en sont équipés.  
@@ -152,7 +152,7 @@ Le type de communication interdite sont celle dont l'état de connexion est inva
 ___________
 
 **Q.2.5.4:**
-On ajoute l'autorisation des 3 port à la chaîne avec cette commande, en changeant la position pour u'elle soit ensemble dans l'ordre:  
+On ajoute l'autorisation des 3 ports à la chaîne avec cette commande, en changeant la position pour qu'elle soient ensemble dans l'ordre:  
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q254_1.png?raw=true)
 ![](https://github.com/Bilal-Aldimashq/Checkpoint_3/blob/main/Ressources/Q254_2.png?raw=true)
 
